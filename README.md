@@ -4,7 +4,7 @@ A modular, header-only C++17 backtesting engine for limit-order-book strategies.
 It ingests asynchronous quote/trade events, simulates full LOB dynamics and order
 state transitions through a real price-time-priority matching engine, models
 execution friction (latency + volume-weighted slippage), and tracks mark-to-market
-PnL. Built for CS 617 (D.K. Han, Drexel).
+PnL.
 
 **Measured on this machine** (g++ 13, `-O2`, single thread):
 
